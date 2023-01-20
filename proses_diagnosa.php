@@ -80,13 +80,9 @@ if (isset($_POST['diagnosa'])) {
         </script>
 
         <div style='color: #545454;'>
-              Pasien dengan identitas dibawah ini :  <p>
-              nama : $nama <br> tanggal lahir : $lahir <br> Jenis Kelamin : $gender 
-               <p>  
-
-              Melalui perhitungan Teorema Bayes terhadap gejala yang dialami <br>
-              Pasien tersebut Didiagnosa terkena <font class='s-text'>" .  $namapenyakit['namapenyakit'] . "</font> Sebesar "  . round($kesimpulan,2) ."% <br> 
-              Diharapkan Pasien untuk "  . $namapenyakit['pengobatan'] .
+              Melalui perhitungan Naive Bayes terhadap gejala yang dialami <br>
+              Anda Terdiagnosa Penyakit <b><font class='s-text'>" .  $namapenyakit['namapenyakit'] . "</font></b> Sebesar <b>"  . round($kesimpulan,2) ."% </b> <br> 
+              Solusi Penanganan: "  . $namapenyakit['pengobatan'] .
            "</div>
         ";
         

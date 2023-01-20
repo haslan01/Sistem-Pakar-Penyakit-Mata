@@ -16,12 +16,12 @@ error_reporting(E_ERROR | E_PARSE);
 <div class="container">
     <!-- membuat jumbotron -->
     <div class="jumbotron">
-        <div class="mb-2" style="font-size: 1.2rem;">
+        <!-- <div class="mb-2" style="font-size: 1.2rem;">
             <h4>BIODATA PASIEN</h4>
-        </div>
+        </div> -->
 
         <form class="s-text" action="" method="POST">
-            <div class="row mb-3">
+            <!-- <div class="row mb-3">
                 <label for="tanggal_diagnosa" class="col-sm-3 col-form-label">Tanggal Diagnosa</label>
                 <div class="col-sm-4 pt-1">
                     <input
@@ -63,15 +63,15 @@ error_reporting(E_ERROR | E_PARSE);
                         </label>
                     </div>
                 </div>
-            </fieldset>
+            </fieldset> -->
             <!-- <div class="row mb-3">
                 <label for="kelas" class="col-sm-3 col-form-label">Kelas</label>
                 <div class="col-sm-2 pt-1">
                     <input type="text" class="form-control form-control-sm" id="kelas" name="kelas">
                 </div>
             </div> -->
-            <div class="mt-1 f-text" style="font-size: 1.2rem;">
-                <h3>GEJALA YANG DIALAMI</h3>
+            <div class="mt-1 f-text" align="center">
+                <h3>Diagnosa Penyakit Mata - Naive Bayes</h3>
             </div>
             <?php
     $gejala = mysqli_query($link,'SELECT * FROM gejala');
@@ -95,10 +95,10 @@ error_reporting(E_ERROR | E_PARSE);
                 name="diagnosa"
                 class="btn btn-success btn-sm worksans gradient shadow-lg shadowtext w-text">
         </form>
-        <br>
+        
         <!-- hasilDiagnosa -->
         <div class="layout_padding">
-            <div class="" style="width: 50%;">
+            <div class="">
                 <div class="mb-2" style="font-size: 1.2rem;">
                     <h2>HASIL DIAGNOSA</h2>
                 </div>
@@ -110,7 +110,7 @@ error_reporting(E_ERROR | E_PARSE);
                         class="btn btn-success btn-sm worksans gradient shadow-lg shadowtext w-text">Lihat Laporan</button>
                 </a> -->
                 <a href="">
-                    <button class='btn btn-outline-success btn-sm worksans ' type='button'>Kembali</button>
+                    <button class='btn btn-success btn-sm worksans gradient shadow-lg shadowtext w-text' type='button'>Kembali</button>
                 </a>
             </div>
         </div>
