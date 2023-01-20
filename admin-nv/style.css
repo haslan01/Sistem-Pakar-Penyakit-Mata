@@ -1,0 +1,62 @@
+
+.f-color{
+    background-color: rgb(93, 184, 153);
+    color : rgb(93, 184, 153);
+}
+
+.s-color{
+    background-color: rgb(239, 124, 142);
+    color: rgb(239, 124, 142);
+}
+
+.t-color{
+    background-color: rgb(238, 225, 220);
+}
+
+.w-color{
+    background-color: rgb(239, 124, 142, 0.04);
+
+}
+
+.f-text{
+    color : rgb(93, 184, 153);
+}
+
+.s-text{
+    color: rgb(239, 124, 142);
+}
+.w-text{
+    color: rgb(226, 226, 226);
+}
+
+
+.lato{
+    font-family: 'Lato', sans-serif;
+}
+.worksans{   
+    font-family: 'Work Sans', sans-serif;
+}
+
+.menu:hover{
+    color: rgb(239, 124, 142) !important;
+}
+
+.gradient{
+    background: rgb(83,223,175);
+    background: linear-gradient(180deg, rgba(83,223,175,1) 25%, rgba(93,184,153,1) 86%);
+}
+
+.shadowtext{
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2)
+}
+body{
+    background-image: url("bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
